@@ -77,7 +77,6 @@ int main() {
                 cin.ignore(); // Clear the newline character from the input buffer
                 cout << "Enter task description: ";
                 string description;
-                cin.ignore();
                 getline(cin, description);
                 addTask(taskList, description);
                 break;
